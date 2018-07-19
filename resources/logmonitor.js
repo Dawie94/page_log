@@ -124,7 +124,7 @@ appCommand.controller('LogControler',
 
 	this.refresh=function()
 	{
-		this.getFileLog( this.logFileName );
+		this.getLog( this.logFileName );
 	}
 
 	
